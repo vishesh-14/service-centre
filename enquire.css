@@ -1,0 +1,53 @@
+*
+{
+margin:0;
+padding: 0;
+}
+header
+{
+	background-image:url('enquiry2.jpg');
+	height:30vh;
+	background-size:cover;
+	background-position:center;  
+	
+}
+.menu 
+{
+    float:right;
+	list-style: none;
+	
+}
+.menu li
+{
+	display: inline-block;
+	margin: 10px 5px;
+}
+
+.menu li a
+{
+	 text-decoration: none;
+	 color:black;
+	 padding:5px 10px;
+	 font-family: sans-serif;
+	 letter-spacing: 3px;
+	 border: 1px solid black;
+}
+.menu li a:hover
+{
+	background:white;
+	transition: .4s;
+	color:#000;
+}
+form
+{
+	margin:20px;
+	
+}
+
+.form-control
+{
+	width:250px;
+	height: 40px;
+		font-size:25px;
+	margin-bottom:50px;
+}
